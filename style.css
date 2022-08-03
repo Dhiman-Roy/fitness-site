@@ -1,0 +1,290 @@
+body{
+    margin: 0%;
+}
+
+.container{
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    
+}
+.navbutton{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13vw;
+}
+.navbar > h1{
+    font-size: 3.3vw;
+    margin:0%;
+    font-weight:bold;
+    font-style: italic;
+    letter-spacing: .5vw;
+    
+}
+.navbutton > button{
+    font-size: 1.3vw;
+    padding: .8vw;
+    background-color: black;
+    color: white;
+}
+.navbutton > button:hover{
+    color: red;
+}
+
+.banner{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-bottom: 7vw;
+
+}
+
+.image > img{
+    width: 40.5vw;
+}
+.banner > .article{
+    padding-left: 3vw;
+    margin-right: 1vw;
+    padding-bottom: 2.5vw;
+}
+.banner > .article > p{
+    font-size: 1.5vw;
+    margin: 1vw 0;
+}
+.banner > .article > h1{
+    font-size: 4vw;
+    margin: 0;
+}
+.banner > .article > button{
+    background-color: red;
+    color: white;
+    font-size: 1.3vw;
+    padding: 1.3vw 1.5vw;
+    border-radius: 5px;
+}
+.banner > .article > button:hover{
+    background-color: royalblue;
+}
+
+.takeLook{
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 5vw;
+}
+.takeLook > h1{
+    font-size: 3vw;
+}
+.cardSection{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
+}
+.card {
+    flex-basis: 20%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1vw;
+    transition: .5s;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+.card:hover{
+   margin-top: -3vw;
+   border: 1px solid red;
+   border-radius: 5px;
+    
+}
+.card > img{
+    width: 5vw;
+}
+.card > p{
+    text-align: justify;
+}
+
+
+.about{
+    
+    text-align: center;
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+.about > h1{
+    font-size: 3vw;
+}
+.about .hr{
+    display: flex;
+    justify-content: space-between;
+}
+.hr1 hr{
+    width: 30vw;
+    border: .5px solid red;
+    padding: 0;
+    background-color: red;
+    margin-left: 10vw;
+}
+.hr2 hr{
+    width: 38vw;
+    border: .5px solid white;
+    padding: 0;
+    background-color: white;
+    margin-right: 11vw;
+}
+.abContainer{
+    
+    display: flex;
+
+}
+.phgallary{
+    display: flex;
+    
+    flex-basis: 50%;
+    justify-content: space-evenly;
+    margin-left: 9vw;
+}
+.phgallary img{
+    width: 16vw;
+    transform: skewY(-15deg);
+}
+.phgallary .galary{
+    margin-top: 4vw;
+}
+.phgallary .galary1{
+    margin-left: 2vw;
+}
+.aboutDes{
+    text-align: left;
+    margin-left: 4vw;
+    padding-right: 5vw;
+}
+
+.aboutDes h1{
+    font-size: 3vw;
+    margin-top: 0;
+    padding-left: 3vw;
+    padding-right: 5vw;
+}
+.aboutDes p{
+    padding-left: 3vw;
+    padding-right: 5vw;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: rgb(214, 209, 209);
+}
+.aboutDes > ul>li{
+    font-size: 1.2vw;
+    list-style-type:square;
+}
+.aboutDes > button{
+    margin-left: 2.5vw;
+    background-color: red;
+    color: white;
+    font-size: 1.3vw;
+    padding: 1.3vw 1.5vw;
+    border-radius: 5px;
+}
+
+.workInq{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+   
+}
+.workInq .background{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: royalblue;
+    width: 50%;
+    transform: translateX(50%);
+    border-radius: 1vw;
+    padding: 2vw;
+}
+.workInq input{
+    padding: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.service{
+    box-sizing: border-box;
+    margin-bottom: 5vw;
+}
+.service > h1{
+    text-align: center;
+    font-size: 3vw;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 3vw;
+       
+}
+.scard > img{
+    width: 23vw;
+    border-radius: .8vw;
+}
+.scard{
+    border: none;
+    border-radius: .8vw;
+    box-shadow: 4px 6px 10px 2px rgb(77, 75, 75) ;
+}
+.scard .description{
+    padding: 0 1vw;
+}
+.scard .description h1{
+    font-size: 1.8vw;
+}
+.scard .description h2{
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: red;
+}
+.scard .description p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.scard .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.scard .priceTag > p{
+    font-size: 2vw;
+    margin: 1vw 0;
+}
+.scard .joinButton > input[type=button]{
+    border: none;
+    color: red;
+    font-size: 1.3vw;
+}
+.footer{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 7vw 10vw;
+}
+.footer > .sec1{
+    border-top: 1px solid gray;
+    padding-top: 3vw;
+}
+.sec1 > p > span{
+    color: red;
+}
+
+
+
